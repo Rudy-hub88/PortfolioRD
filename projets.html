@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes projets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Img/RD-logo.jpg" alt="Logo" class="logo">
+            <span class="logo-text">Rudy Dimino</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="formation.html">Formation</a></li>
+                <li><a href="projets.html">Mes projets</a></li>
+                <li><a href="veille.html">Veille</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="projects-content">
+            <h1>Mes projets</h1>
+            <p>Explorez mes projets réalisés.</p>
+            <div class="projects-list">
+                <div class="project-card">
+                    <img src="Img/java-logo.png" height="100px" alt="Aperçu Chat Java" class="project-img">
+                    <div class="project-info">
+                        <h2>Classcord - Chat en Java</h2>
+                        <p>
+                            Application de chat développée en Java avec interface graphique.<br>
+                            Fonctionnalités : salons, messages privés, gestion des utilisateurs.<br>
+                            Projet réalisé dans le cadre de ma formation.
+                        </p>
+                        <a href="https://github.com/Rudy-hub88/classcord-client" class="project-link" target="_blank">Voir sur GitHub</a>
+                    </div>
+                </div>
+                <!-- Nouveau projet ajouté -->
+                <div class="project-card">
+                    <img src="Img/CineZone.jpg" height="100px" alt="Aperçu CineZone" class="project-img">
+                    <div class="project-info">
+                        <h2>CineZone</h2>
+                        <p>
+                            Application de référencement de films, permettant de découvrir aussi bien les nouveautés que les films les plus populaires.<br>
+                            L'objectif est de faciliter la recherche et l'exploration de films pour tous les passionnés de cinéma.
+                        </p>
+                        <a href="https://github.com/Rudy-hub88/CineZone" class="project-link" target="_blank">Voir sur GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="modal" class="hidden">
+        <div class="modal-content">
+            <h2>Choisissez une page</h2>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="formation.html">Formation</a></li>
+                <li><a href="veille.html">Veille</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="close-modal">Fermer</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Rudy Dimino. Tous droits réservés.</p>
+    </footer>
+    <button id="scrollTopBtn" title="Remonter en haut">&#8679;</button>
+    <script src="script.js"></script>
+</body>
+</html>
